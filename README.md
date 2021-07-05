@@ -4,7 +4,8 @@ This particular camera has a double trigger requirement i.e. the trigger has to 
 Thus, for HDR 4 triggers are required to get the low and high exposure images.   
 The rest of it is the same as reqular Hawkeye HDR posted in the repositories here.  
   
-Note: Hawkeye board V12 or higher and MSP FW mod are required for proper HDR operation to provide two camera triggers for a single external trigger.   
+Note: Hawkeye board V12 or higher and MSP FW mod are required for proper HDR operation to provide two camera triggers for a single external trigger.  
+https://github.com/vintagefilmography/msp430/tree/master/freq_gen_12_hdr_turbo_ux178  
 This is the windows software that runs hdr on the Wolverine scanner that has the Hawkeye mod.   
 The software is written in Visual Basic and it connects to the camera and waits for the image ready event.   
 After the event is receied the sw stores the first image and lowers the camera exposure for the second image.   
